@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Hello World!</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <h1 class="title">What's Good</h1>
+
+        <img
+          src="data:image/png;base64,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"
+          class="illustration"
+          alt="Editor illustration"
+          title="Click the image!"
+        />
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+          <h2>
+            The Finest Fans of the Golden Arches
+          </h2>
+          <p>
+            This is the Glitch <strong>Hello Website</strong> project. You can
+            use it to build your own site. Check out README.md in the editor for
+            more info and next steps you can take!
+          </p>
+          <!-- ADD BUTTON HERE -->
+          
+          <!-- Once you've added the button from the readme, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+        </div>
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    <footer class="footer">
+      <div class="links"></div>
+      <a
+        class="btn--remix"
+        target="_top"
+        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
+      >
+        <img
+          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
+          alt=""
+        />
+        Remix on Glitch
+      </a>
+    </footer>
+  </body>
+</html>
